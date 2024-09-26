@@ -14,8 +14,8 @@ projects:
     desc: Thirty_Li的项目文档
     link: /zh/project/
 
-  - icon: star
-    name: 题目
+  - icon: lightbulb
+    name: 题解
     desc: Thirty_Li的题目➕题解
     link: /zh/problem/
 
@@ -25,7 +25,7 @@ projects:
     link: /zh/note/
 
   - icon: book-open
-    name: 笔记
+    name: 学习笔记
     desc: Thirty_Li的学习笔记
     link: /zh/learning/
 footer: customize your footer text

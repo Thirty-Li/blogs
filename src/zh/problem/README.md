@@ -1,6 +1,6 @@
 ---
 title: 题解
-icon: book-open
+icon: lightbulb
 description:
 star: true
 sticky: 10

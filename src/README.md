@@ -17,7 +17,7 @@ actions:
     
 features:
   - title: 学习笔记
-    icon: lightbulb
+    icon: book-open
     details: Thirty_Li的学习笔记
     link: /zh/learning/
     
@@ -27,7 +27,7 @@ features:
     link: /zh/project/
 
   - title: 题解
-    icon: book-open
+    icon: lightbulb
     details: Thirty_Li的题目➕题解
     link: ./zh/problem/
 

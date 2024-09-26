@@ -1,6 +1,6 @@
 ---
 title: 学习笔记
-icon: lightbulb
+icon: book-open
 description:
 #star: true
 #sticky: 10
