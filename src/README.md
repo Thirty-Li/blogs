@@ -13,7 +13,7 @@ actions:
 
   - text: home
     icon: home
-    link: ./guide/
+    link: ./blog/
     
 features:
   - title: 算法
