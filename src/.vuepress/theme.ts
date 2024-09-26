@@ -99,10 +99,15 @@ export default hopeTheme({
 
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "Thirty-Li/blogs",
+      repoId: "R_kgDOM3Yd-A",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOM3Yd-M4Ciz3Z",
+      mapping: "pathname",
+      strict: false,
+      reactionsEnabled: true,
+      inputPosition: "bottom",
+      lightTheme: "preferred_color_scheme",
     },
 
     components: {

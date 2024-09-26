@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a8bc535-4e78-49e3-99a2-8a5dceac9a7d" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/learning/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/problem/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/problem/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.vuepress/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/theme.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <updated>1727324423708</updated>
       <workItem from="1727324424844" duration="15602000" />
       <workItem from="1727346265653" duration="6292000" />
-      <workItem from="1727352662670" duration="570000" />
+      <workItem from="1727352662670" duration="1382000" />
     </task>
     <servers />
   </component>
