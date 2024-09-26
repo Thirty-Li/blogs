@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/Thirty-Li/blogs",
 
   docsDir: "src",
 
@@ -36,7 +36,9 @@ export default hopeTheme({
 
   blog: {
     name: "Thirty_Li",
-    intro: "logo.png",
+    avatar: "logo.png",
+    description: "此时情绪此时天",
+    intro: "/portfolio",
     medias: {
       GitHub: "https://github.com/Thirty-Li",
       // Baidu: "https://example.com",
@@ -92,6 +94,8 @@ export default hopeTheme({
   plugins: {
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     blog: true,
+
+    searchPro: true,
 
     comment: {
       provider: "Giscus",

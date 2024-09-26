@@ -3,40 +3,30 @@ home: true
 layout: BlogHome
 icon: blog
 title: Blog Home
+bgImage: /preview.gif
 heroImage: logo.png
 heroText: Thirty_Li
-tagline: 
+tagline: Thirty_Li的个人博客✨
 heroFullScreen: true
 projects:
-  - icon: project
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+  - icon: laptop-code
+    name: 项目
+    desc: Thirty_Li的项目文档
+    link: /zh/project/
 
-  - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
+  - icon: star
+    name: 题目
+    desc: Thirty_Li的题目➕题解
+    link: /zh/problem/
 
-  - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
+  - icon: file
+    name: 文档
+    desc: Thirty_Li的个人文档
+    link: /zh/note/
 
-  - icon: article
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
-
-  - icon: friend
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
-
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
-
+  - icon: book-open
+    name: 笔记
+    desc: Thirty_Li的学习笔记
+    link: /zh/learning/
 footer: customize your footer text
 ---

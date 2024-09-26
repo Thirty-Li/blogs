@@ -10,7 +10,9 @@ export default defineUserConfig({
   description: "vuepress-theme-hope 的文档演示",
 
   theme,
-
+  head: [
+    ['link', { rel: 'icon', href: 'logo.png' }]
+  ],
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });

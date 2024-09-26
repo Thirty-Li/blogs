@@ -1,45 +1,41 @@
 ---
 home: true
 icon: home
-title: Project Home
+title: 主页
 heroImage: logo.png
 heroText: ThirtyLi-Wiki
 tagline: Thirty_Li的个人Wiki✨
 actions:
   - text: 开始✨
     icon: lightbulb
-    link: ./demo/
+    link: /zh/project/
     type: primary
 
-  - text: home
-    icon: home
+  - text: 博客
+    icon: blog
     link: ./blog/
     
 features:
-  - title: 算法
+  - title: 学习笔记
     icon: lightbulb
-    details: Including icon support, fullscreen button, etc.
-    link:
+    details: Thirty_Li的学习笔记
+    link: /zh/learning/
     
   - title: 项目
-    icon: star
-    details: Including icon support, fullscreen button, etc.
-    link:
+    icon: laptop-code
+    details: Thirty_Li的项目实战
+    link: /zh/project/
 
   - title: 题解
     icon: book-open
-    details: Including icon support, fullscreen button, etc.
-    link: ./guide/
+    details: Thirty_Li的题目➕题解
+    link: ./zh/problem/
 
-  - title: 博客
-    icon: blog
-    details: Including icon support, fullscreen button, etc.
-    link:
 
   - title: 文档
     icon: file
-    details: Including icon support, fullscreen button, etc.
-    link:
+    details: Thirty_Li的个人文档
+    link: /zh/note/
 
 copyright: false
 footer: MIT Licensed | Copyright © 2024-present Thirty_Li
