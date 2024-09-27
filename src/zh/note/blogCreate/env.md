@@ -1,6 +1,6 @@
 ---
 title: 运行环境搭建
-icon: node
+icon: screwdriver-wrench
 order: 1
 category:
   - Cookbook
@@ -39,9 +39,10 @@ tag:
 
 ### 4. 环境配置
 
-建好以后开始配置环境：高级系统设置——环境变量
+建好以后开始配置环境：高级系统设置——环境变量 
 
 新建一个`NODE_HOME`，变量值为安装路径
+
 ![](./image/c11ad51c87f5a011643495335fad872b.png)
 
 然后再在系统变量的`path`中添加

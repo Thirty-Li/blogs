@@ -9,3 +9,7 @@ category:
 tag:
   - Project Config
 ---
+
+本教程指引你如何配置 VuePress 项目。
+
+<!-- more -->
