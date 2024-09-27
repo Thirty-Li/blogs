@@ -29,7 +29,7 @@ tag:
 
 :::
 - 执行以下命令：
-```
+```bash
 npm init vuepress-theme-hope my-docs
 ```
 ::: tip 注意
@@ -59,7 +59,7 @@ npm init vuepress-theme-hope my-docs
 
 由于插件之间版本不同容易出现依赖冲突，可以直接修改`package.json`文件
 
-```
+```json
 {
   "name": "vuepress-theme-hope-template",
   "description": "A project of vuepress-theme-hope",
@@ -106,12 +106,12 @@ npm init vuepress-theme-hope my-docs
 ```
 用`管理员模式`在`项目根目录`(也就是你`package.json`所在的文件夹目录)执行以下命令，等待自动下载
 
-```
+```bash
 npm install
 ```
 
 下载完成后执行以下命令即可在本地打开博客：
-```
+```bash
 npm run docs:dev
 ```
 > 执行过程中出现 vuepress-theme-hope: ✖ @vuepress/plugin-redirect is not installed! 的报错是正常的，不需要管，也不要下载这个插件，容易出现依赖冲突

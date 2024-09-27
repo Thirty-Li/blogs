@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a8bc535-4e78-49e3-99a2-8a5dceac9a7d" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/note/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/note/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zh/note/blogCreate/create.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/note/blogCreate/create.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zh/note/blogCreate/env.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/note/blogCreate/env.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +76,7 @@
       <workItem from="1727352662670" duration="2831000" />
       <workItem from="1727399500589" duration="1266000" />
       <workItem from="1727400825274" duration="9464000" />
-      <workItem from="1727412024760" duration="5745000" />
+      <workItem from="1727412024760" duration="6214000" />
     </task>
     <servers />
   </component>

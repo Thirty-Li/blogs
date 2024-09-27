@@ -46,15 +46,15 @@ tag:
 
 然后再在系统变量的`path`中添加
 
-```
+```bash
 %NODE_HOME%
 ```
 
-```
+```bash
 %NODE_HOME%\node_global
 ```
 
-```
+```bash
 %NODE_HOME%\node_cache
 ```
 ![](./image/40775d2b28c32424afe0f77e5f87e0d7.png)
@@ -63,11 +63,11 @@ tag:
 
 到这一步，环境就已经完全配好了，现在开始查看，键盘`Win+R`进入`cmd`
 输入以下指令
-```
+```bash
 node -v
 ```
 
-```
+```bash
 npm -v
 ```
 >能够正确显示版本号说明安装成功
@@ -77,13 +77,13 @@ npm -v
 用`管理员模式`打开 `cmd` 窗口执行以下指令
 
 -设置缓存到 node_cache 文件夹：
-```
+```bash
 npm config set cache [dir]
 ```
 
 -设置全局模块的安装路径到 `node_global` 文件夹：
 
-```
+```bash
 npm config set prefix [dir]
 ```
 >[dir]是你对应文件夹的绝对路径
