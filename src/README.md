@@ -33,7 +33,7 @@ features:
 
 
   - title: 文档
-    icon: file
+    icon: folder
     details: Thirty_Li的个人文档
     link: /zh/note/
 

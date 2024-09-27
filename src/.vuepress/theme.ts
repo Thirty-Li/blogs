@@ -7,7 +7,7 @@ export default hopeTheme({
   hostname: "https://thirty-li.github.io/blogs/",
 
   author: {
-    name: "Mr.Hope",
+    name: "Thirty_Li",
     url: "https://thirty-li.github.io/blogs/",
   },
 
@@ -92,7 +92,6 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     blog: true,
 
     searchPro: true,
@@ -121,12 +120,14 @@ export default hopeTheme({
       size: true,
     },
 
-    // markdownMath: {
-    //   // 启用前安装 katex
-    //   type: "katex",
-    //   // 或者安装 mathjax-full
-    //   type: "mathjax",
-    // },
+    shiki: true,
+
+    markdownMath: {
+      // 启用前安装 katex
+      type: "katex",
+      // 或者安装 mathjax-full
+      // type: "mathjax",
+    },
 
     // 此功能被开启用于演示，你应仅当使用时保留。
     markdownTab: true,
@@ -160,12 +161,13 @@ export default hopeTheme({
       vPre: true,
 
       // 在启用之前安装 chart.js
-      // chart: true,
+      chart: true,
 
       // insert component easily
 
       // 在启用之前安装 echarts
-      // echarts: true,
+      echarts: true,
+
 
       // 在启用之前安装 flowchart.ts
       // flowchart: true,

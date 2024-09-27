@@ -1,7 +1,8 @@
 ---
 title: 文档
-icon: file
+icon: folder
 description:
+index: false
 #star: true
 #sticky: 10
 #dir:

@@ -20,6 +20,7 @@
     "@vuepress/plugin-revealjs": "2.0.0-rc.48",
     "@vueuse/core": "11.1.0",
     "artplayer": "5.1.7",
+    "chart.js": "^4.4.4",
     "echarts-wordcloud": "2.1.0",
     "flowchart.ts": "3.0.1",
     "katex": "0.16.11",
@@ -38,5 +39,8 @@
     "vuepress-plugin-search-pro": "^2.0.0-rc.54",
     "vuepress-shared": "2.0.0-rc.54",
     "vuepress-theme-hope": "2.0.0-rc.56"
+  },
+  "dependencies": {
+    "mathjax-full": "^3.2.2"
   }
 }
