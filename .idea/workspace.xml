@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2a8bc535-4e78-49e3-99a2-8a5dceac9a7d" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs" beforeDir="false" afterPath="$PROJECT_DIR$/blogs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/env.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/env.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/scraping.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/scraping.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +106,13 @@
       <workItem from="1729665548250" duration="57000" />
       <workItem from="1729665615443" duration="69000" />
       <workItem from="1729665692395" duration="5000" />
-      <workItem from="1729665706578" duration="398000" />
+      <workItem from="1729665706578" duration="427000" />
+      <workItem from="1729666150635" duration="1287000" />
+      <workItem from="1729667479015" duration="43000" />
+      <workItem from="1729671140683" duration="25000" />
+      <workItem from="1729671179155" duration="26000" />
+      <workItem from="1729671215124" duration="57000" />
+      <workItem from="1729671296867" duration="2415000" />
     </task>
     <servers />
   </component>
