@@ -53,7 +53,7 @@ tag:
 
 ![](./image/a595cc3b9b6085fcc67c7f2625632fde.png)
 
-访问网址[city.json](https://www.zhipin.com/wapi/zpCommon/data/city.json)
+访问网址 !![city.json](https://www.zhipin.com/wapi/zpCommon/data/city.json)!!
 
 ![](./image/85d92e8d1c67280e59bfb670d72ba197.png)
 
@@ -331,7 +331,7 @@ if __name__ == '__main__':
 
 对应的文件找到了
 
-获取到:path: `search/positions`
+获取到:path: !!`search/positions`!!
 
 ![](./image/8ba9ad699c8d6c64d12a1f0d7a886162.png)
 
@@ -542,3 +542,99 @@ if __name__ == '__main__':
 ## 3. 前程无忧
 
 打开官网[前程无忧](https://www.51job.com/)
+
+::: info 前情提要
+
+![](./image/aa01ca6c23e2924c53795a1a4f420b08.png)
+
+由于该网站招聘信息 技能要求和福利 等信息在一块，后期数据处理很麻烦，故在这里只教程如何爬取内容
+
+:::
+
+### URL获取
+
+`https://we.51job.com/pc/search?jobArea=020000&keyword=java&searchType=2&keywordType=`
+
+四个参数
+
+jobArea 城市参数
+keyword 职业关键字
+searchType 1 搜公司 2 搜全文
+keywordType 作用不大
+
+城市参数 `https://js.51jobcdn.com/in/js/2023/dd/dd_city.json`
+
+监听参数 `job/search-pc`
+
+::: important 但是
+
+[例子](https://we.51job.com/api/job/search-pc?api_key=51job&timestamp=1729683309&keyword=java%5C&searchType=2&function=&industry=&jobArea=020000&jobArea2=&landmark=&metro=&salary=&workYear=&degree=&companyType=&companySize=&jobType=&issueDate=&sortType=0&pageNum=1&requestId=&keywordType=&pageSize=20&source=1&accountId=&pageCode=sou%7Csou%7Csoulb)
+
+需要手动验证
+
+![](./image/6180b7c95b61929859a406b9ef1d9a34.png)
+
+所以该网站不能像前面俩一样爬取（大家可以尝试编写代码，突破验证）
+
+通过直接爬取网页元素（该方法相较于前面，比较麻烦）
+
+![](./image/17f14af6511d3f7f4d887e9fc5fa5b74.png)
+
+:::
+
+### 简单demo编写
+
+根据页面元素可以得到，页面中一个工作的信息包含在 `class=joblist_item`中
+所以我们可以通过`ChromiumPage()`对象的`eles`方法获取页面中所有`joblist_item`
+
+![](./image/5d0d58e356175b2b2bf60eb6bfe554f6.png)
+
+![](./image/cfbab55c7407e4e7ce16da9c113b43ef.png)
+
+公司信息如图所示
+
+![](./image/83571e80863ffc6cd47feb632990d302.png)
+
+![](./image/025a13cd4899c9ec3ef6a8b7110e6424.png)
+
+公司标签如图所示
+
+![](./image/bd0123b6356779b936100c663e07733c.png)
+
+![](./image/299cbedbe2266a06ab1ab94e04682b24.png)
+
+```python
+import json
+from pprint import pprint
+from DrissionPage import SessionPage, ChromiumPage
+page = ChromiumPage()
+page.get('https://we.51job.com/pc/search?jobArea=020000&keyword=java&searchType=2&keywordType=')
+# 获取所有职位信息所在的div标签
+divs = page.eles('css:.joblist-item')
+for div in divs:
+    # 提取具体的数据内容
+    info = div.ele('css:.joblist-item-job').attr('sensorsdata')
+    # 把json字符串转为json字典数据
+    json_data = json.loads(info)
+    # 公司姓名
+    c_name = div.ele('css:.cname').attr('title')
+    # 公司领域
+    dc = div.ele('css:.dc').text
+    # 提取标签
+    tags = ','.join([i.text for i in div.eles('css:.tag')])
+    # 提取相关数据内容，保存在字典内
+    dit = {
+        '职位': json_data['jobTitle'],
+        '薪资': json_data['jobSalary'],
+        '城市': json_data['jobArea'],
+        '经验': json_data['jobYear'],
+        '学历': json_data['jobDegree'],
+        '公司': c_name,
+        '领域': dc,
+        '标签': tags,
+    }
+    print(dit)
+
+```
+
+以上就是 前程无忧 网站信息爬取过程

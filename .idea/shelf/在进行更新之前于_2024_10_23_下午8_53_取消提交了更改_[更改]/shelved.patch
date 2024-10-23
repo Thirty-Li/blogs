@@ -1,0 +1,68 @@
+Index: blogs/src/zh/learning/zhaoPinCrawler/env.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>---\ntitle: 环境配置\nicon: screwdriver-wrench\norder: 1\ncategory:\n  - Python\n  - Jupyter notebook\n  - pyecharts\ntag:\n  - 爬虫\n---\n\n本教程将指导你如何配置 招聘网站爬虫 的运行环境。\n\n<!-- more -->\n\n## Python 安装\n\n::: info 前言\n\n`人生苦短，快用Python！`\n\nPython作为众多编程语言之一，是学习者比较容易上手的一门语言，有着简单、易学、好用等特点\n\n:::\n\n### 1. 下载安装包[python官网](https://www.python.org/downloads/windows/) 。\n\n![](./image/b9f7f7cc81916a60b95e3835c66381c5.png)\n\n### 2. 运行安装包。\n\n::: info\n\npython安装非常简单，双击下载好的安装包，进入选择安装方式\n\n第一种：Install Now 立即安装，即采用默认安装方式，不能自行指定安装的路径。\n\n第二种：Customize installation 自定义安装，可以自己选择安装的路径（建议自定义安装）。\n\n选择第二种，自定义安装，把最底下Add python.exe to PATH打上勾，否则需要手动添加环境变量\n![](./image/f5d9533689c48586594a40e3fcc134c1.png)\n\n下一步：默认把所有的勾选上即可\n![](./image/82c712c81a254678a318be353433bba2.png)\n\n下一步：修改安装路径，建议别安装在C盘。如果没有联网，请不要勾选第六项\n![](./image/10163b5b3841c2ef8362c30638dce164.png)\n\n下一步：安装完成，点击Close关闭即可\n\n安装完成之后，使用win+R键输入cmd进入DOS界面，输入python验证，如下图所示即安装成功，继续输入exit()退出即可\n![](./image/eb05e977a7027985a7b731647e515cf4.png)\n\n:::\n\n## Pycharm 安装\n\n::: info\n\nPyCharm是一款非常好用的Python IDE，由JetBrains开发而成。\n\n官方下载：[Download PyCharm: Python IDE for Professional Developers by JetBrains](https://www.jetbrains.com/pycharm/download/?section=windows#section=windows)\n\n我下载的是 专业版本\n\n![](./image/8971166a259dd89444f436fd3047b0c8.png)\n\nPyCharm针对每个平台都有Professional和Community两个版本，自己可根据自己的需要进行选择。\n\nProfessional：专业版（建议选择专业版），功能强大，属于收费版。\n\nCommunity：社区版，只支持Python开发，开源、免费，用作学习也够用。\n\n:::\n\n### 1. 安装包下载\n\n由于专业版本需要付费，一下包含破解教程\n\n::: warning 警告\n\n涉及版权，自行选择\n\n:::\n\n微信公众号搜索`软件管家`\n\n![](./image/f114d0926375c08d75ed9d127d3812e1.png)\n\n对话中发送`pycharm`\n\n![](./image/76f48f514e5dba6c375df642dfc46aa3.png)\n\n## 2. Pycharm 安装教程\n\n下载的内容为 JetBrains 全家桶，安装教程以IDEA为例子\n\n下面将讲解 Pycharm 的安装教程，破解过程与IDEA一致\n\n首先找到解压包下的安装包\n\n![](./image/d418a73cbf5c5d3f4f54e0e3903245ef.png)\n\nPyCharm的安装通用非常简单，双击进行下一步即可\n\n![](./image/d1b49226c80179063acfa2c76195f57c.png)\n\n下一步：修改安装路径，建议别放在C盘。\n\n![](./image/3632c2ea96a157156bb8707dccee5026.png)\n\n下一步：可以都勾选上\n\n![](./image/f66cf81125e917b79dde6af7b87e895a.png)\n\n下一步：直接点击Install安装即可\n\n![](./image/87aac7748caa19df1469209456240c2c.png)\n\n安装完成：点击I want to manually reboot later稍后重启系统\n\n如何破解，请参照公众号文章教程\n\nPycharm 常用快捷键\n\n```bash\n折叠\n    Ctrl -: 折叠当前代码\n    Ctrl +: 展开当前代码\n    Ctrl Shift -: 折叠所有代码\n    Ctrl Shift +: 展开所有代码\n移动\n    Shift+Enter: 在行中间执行时，智能跳到下一行。\n    Ctrl+Alt+Enter: 向上插入一行\n注释\n    Ctrl /: 注释、取消注释行\n编辑\n    Ctrl + D: 未选中时，复制当前行到下一行，选中时复制粘贴选中部分。\n删除\n    Ctrl + Y: 删除当前行\n查看\n    Ctrl + Q: 查看文档\n缩进\n    Shift + Tab: 反向退格\n替换\n    Ctrl + r: 替换\n```\n\n以上就是Python+Pycharm的详细安装过程，及PyCharm的使用！\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blogs/src/zh/learning/zhaoPinCrawler/env.md b/blogs/src/zh/learning/zhaoPinCrawler/env.md
+--- a/blogs/src/zh/learning/zhaoPinCrawler/env.md	
++++ b/blogs/src/zh/learning/zhaoPinCrawler/env.md	
+@@ -29,8 +29,7 @@
+ ![](./image/b9f7f7cc81916a60b95e3835c66381c5.png)
+ 
+ ### 2. 运行安装包。
+-
+-::: info
++::: info 
+ 
+ python安装非常简单，双击下载好的安装包，进入选择安装方式
+ 
+@@ -39,24 +38,28 @@
+ 第二种：Customize installation 自定义安装，可以自己选择安装的路径（建议自定义安装）。
+ 
+ 选择第二种，自定义安装，把最底下Add python.exe to PATH打上勾，否则需要手动添加环境变量
++
+ ![](./image/f5d9533689c48586594a40e3fcc134c1.png)
+ 
+ 下一步：默认把所有的勾选上即可
++
+ ![](./image/82c712c81a254678a318be353433bba2.png)
+ 
+ 下一步：修改安装路径，建议别安装在C盘。如果没有联网，请不要勾选第六项
++
+ ![](./image/10163b5b3841c2ef8362c30638dce164.png)
+ 
+ 下一步：安装完成，点击Close关闭即可
+ 
+ 安装完成之后，使用win+R键输入cmd进入DOS界面，输入python验证，如下图所示即安装成功，继续输入exit()退出即可
++
+ ![](./image/eb05e977a7027985a7b731647e515cf4.png)
+ 
+ :::
+ 
+ ## Pycharm 安装
+ 
+-::: info
++::: info 前言
+ 
+ PyCharm是一款非常好用的Python IDE，由JetBrains开发而成。
+ 
+Index: blogs/src/zh/learning/zhaoPinCrawler/processing.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>---\ntitle: 数据处理\nicon: book-mark\norder: 3\ncategory:\n  - Python\n  - pandas\n  - re\n  - csv\n---\n\n本教程将指导你如何处理 爬取 招聘网站 后的求职信息 。\n\n<!-- more -->
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blogs/src/zh/learning/zhaoPinCrawler/processing.md b/blogs/src/zh/learning/zhaoPinCrawler/processing.md
+--- a/blogs/src/zh/learning/zhaoPinCrawler/processing.md	
++++ b/blogs/src/zh/learning/zhaoPinCrawler/processing.md	
+@@ -11,4 +11,5 @@
+ 
+ 本教程将指导你如何处理 爬取 招聘网站 后的求职信息 。
+ 
+-<!-- more -->
+\ No newline at end of file
++<!-- more -->
++

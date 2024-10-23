@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2a8bc535-4e78-49e3-99a2-8a5dceac9a7d" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs" beforeDir="false" afterPath="$PROJECT_DIR$/blogs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/env.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/env.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/processing.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/processing.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/scraping.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/scraping.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/env.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/env.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/processing.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/processing.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/scraping.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/scraping.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blogs" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -54,6 +52,11 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\IDEA\\IntelliJ IDEA 2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -126,6 +129,16 @@
       <workItem from="1729676510763" duration="183000" />
       <workItem from="1729676751183" duration="47000" />
       <workItem from="1729676817531" duration="15000" />
+      <workItem from="1729676836077" duration="107000" />
+      <workItem from="1729676971135" duration="7000" />
+      <workItem from="1729687408326" duration="18000" />
+      <workItem from="1729687429523" duration="11000" />
+      <workItem from="1729687486155" duration="36000" />
+      <workItem from="1729687547081" duration="505000" />
+      <workItem from="1729688092649" duration="102000" />
+      <workItem from="1729688202002" duration="30000" />
+      <workItem from="1729688356353" duration="303000" />
+      <workItem from="1729688688267" duration="36000" />
     </task>
     <servers />
   </component>
@@ -154,5 +167,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
