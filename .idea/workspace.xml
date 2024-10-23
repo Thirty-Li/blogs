@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a8bc535-4e78-49e3-99a2-8a5dceac9a7d" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/env.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/env.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/processing.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/processing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/scraping.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/scraping.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +94,7 @@
       <workItem from="1729650474238" duration="2700000" />
       <workItem from="1729653228504" duration="763000" />
       <workItem from="1729654132077" duration="1000" />
-      <workItem from="1729654145439" duration="696000" />
+      <workItem from="1729654145439" duration="2193000" />
     </task>
     <servers />
   </component>
