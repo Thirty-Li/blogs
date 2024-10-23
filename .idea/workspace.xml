@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogs" beforeDir="false" afterPath="$PROJECT_DIR$/blogs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/env.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/env.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/processing.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/processing.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/scraping.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/scraping.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +113,10 @@
       <workItem from="1729671140683" duration="25000" />
       <workItem from="1729671179155" duration="26000" />
       <workItem from="1729671215124" duration="57000" />
-      <workItem from="1729671296867" duration="2415000" />
+      <workItem from="1729671296867" duration="2524000" />
+      <workItem from="1729673861112" duration="58000" />
+      <workItem from="1729673930351" duration="196000" />
+      <workItem from="1729674137617" duration="170000" />
     </task>
     <servers />
   </component>
@@ -130,7 +134,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
