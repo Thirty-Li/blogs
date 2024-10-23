@@ -1,7 +1,7 @@
 ---
 title: 环境配置
 icon: screwdriver-wrench
-order: 2
+order: 1
 category:
   - Python
   - Jupyter notebook

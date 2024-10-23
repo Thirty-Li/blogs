@@ -1,7 +1,7 @@
 ---
 title: 项目配置
 icon: gears
-order: 5
+order: 3
 category:
   - Cookbook
   - Tutorial

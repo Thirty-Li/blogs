@@ -1,7 +1,7 @@
 ---
 title: 数据可视化
 icon: chart-simple
-order: 2
+order: 4
 category:
   - Python
   - Jupyter Notebook

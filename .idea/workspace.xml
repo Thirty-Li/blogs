@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2a8bc535-4e78-49e3-99a2-8a5dceac9a7d" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zh/learning/blogCreate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/blogCreate/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zh/learning/blogCreate/config.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/blogCreate/config.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zh/learning/blogCreate/deploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/blogCreate/deploy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/env.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/env.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/processing.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/processing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/visualization.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/visualization.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/VuePressProject/blogs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\IDEA\\IntelliJ IDEA 2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/VuePressProject/blogs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IDEA\\IntelliJ IDEA 2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\VuePressProject\blogs\src\zh\note\blogCreate\image" />
@@ -88,10 +95,22 @@
       <workItem from="1727692837740" duration="10000" />
       <workItem from="1727692953301" duration="30000" />
       <workItem from="1729650323778" duration="124000" />
+      <workItem from="1729650474238" duration="1971000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

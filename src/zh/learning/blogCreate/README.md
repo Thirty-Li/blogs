@@ -4,7 +4,7 @@ icon: leaf
 star: true
 sticky: 10
 dir:
-    order: 1s
+    order: 1
 category:
   - Cookbook
   - Tutorial

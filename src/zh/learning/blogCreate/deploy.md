@@ -1,7 +1,7 @@
 ---
 title: 项目部署
 icon: rocket
-order: 7
+order: 4
 category:
   - Cookbook
   - Tutorial
