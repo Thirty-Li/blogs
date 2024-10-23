@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a8bc535-4e78-49e3-99a2-8a5dceac9a7d" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/env.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/env.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/processing.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/processing.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/scraping.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/scraping.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blogs" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -94,7 +92,15 @@
       <workItem from="1729650474238" duration="2700000" />
       <workItem from="1729653228504" duration="763000" />
       <workItem from="1729654132077" duration="1000" />
-      <workItem from="1729654145439" duration="2193000" />
+      <workItem from="1729654145439" duration="2995000" />
+      <workItem from="1729663840565" duration="32000" />
+      <workItem from="1729663894378" duration="246000" />
+      <workItem from="1729664156410" duration="97000" />
+      <workItem from="1729664384761" duration="48000" />
+      <workItem from="1729664439148" duration="1000" />
+      <workItem from="1729664448861" duration="52000" />
+      <workItem from="1729664510453" duration="671000" />
+      <workItem from="1729665200383" duration="204000" />
     </task>
     <servers />
   </component>
