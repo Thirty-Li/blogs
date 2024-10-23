@@ -127,7 +127,7 @@ page.json返回的是一个字典类型
 
 :::
 
-### ✅️ 数据抓取
+#### ✅️ 数据抓取
 
 ```python
 def run(self):
@@ -297,3 +297,248 @@ if __name__ == '__main__':
 
 
 ```
+
+## 2. 智联招聘
+
+### URL获取
+
+打开官网[智联招聘](https://www.zhaopin.com/)
+
+同理
+
+基础URL
+`https://www.zhaopin.com/sou/?jl=489&kw=python&p=2`
+
+参数有3个，jl=城市，kw=招聘岗位，p=页面
+
+[城市参数网址](https://fe-api.zhaopin.com/c/i/search/base/data)
+
+![](./image/bb3a16e648641dc832cb27e0d7e08226.png)
+
+每个城市对应的参数都在该网址
+
+### 招聘信息获取
+
+有别于Boss直聘
+
+你在搜索公司名称时，发现找不到对应的json文件
+
+![](./image/8a13a58b29ec704471aadf5f29704036.png)
+
+但我们翻到第二页的时候
+
+![](./image/bf0c4b32071287ce71d73be96ab25291.png)
+
+对应的文件找到了
+
+获取到:path: `search/positions`
+
+![](./image/8ba9ad699c8d6c64d12a1f0d7a886162.png)
+
+### 代码编写
+
+用到的包`DrissionPage`
+
+[使用文档](https://www.drissionpage.cn/get_start/installation)
+
+#### ✅️️ URL获取模块
+
+``` python
+        def _get_city_code(self):
+        """获取城市编码"""
+        page = SessionPage()
+        page.get('https://fe-api.zhaopin.com/c/i/search/base/data')
+        json_data = page.json['data']['allCity']
+        for dit in json_data:
+            if dit['name'] == self.city:
+                return str(dit['code'])
+            for city_json in dit['sublist']:
+                if city_json['name'] == self.city:
+                    return str(city_json['code'])
+        return '489'  # 默认值为全国
+
+    def _get_url(self):
+        """根据关键词和城市编码生成正确的URL"""
+        self.url = re.sub(r'(?<=jl=)[^&]+', self._get_city_code(), self.url)
+        self.url = re.sub(r'(?<=kw=)[^&]+', self.keyword, self.url)
+        print(self.url)
+        return self.url
+```
+
+#### ✅️ 数据抓取
+
+```python
+    def run(self):
+        """爬取数据并写入CSV"""
+        page = None
+        try:
+            page = ChromiumPage()
+            page.listen.start('/search/positions')
+            page.get(self._get_url())
+            page.scroll.to_bottom()  # 滚动到页面底部，加载新内容
+            page.ele('css:.soupager__btn').click()
+            for page_num in range(1000):  # 翻页处理
+                page.scroll.to_bottom()  # 滚动到页面底部，加载新内容
+                response = page.listen.wait()  # 等待监听到的请求响应
+                json_data = response.response.body
+                jobList = json_data['data']['list']
+                for job in jobList:
+                    data = {
+                        '职位': job['name'],
+                        '城市': job['workCity'],
+                        '公司': job['companyName'],
+                        '薪资': job['salary60'],
+                        '经验': job['workingExp'],
+                        '学历': job['education'],
+                        '领域': job['industryName'],
+                        '技能': ', '.join(skill['name'] for skill in job['jobSkillTags']),
+                        '福利': ', '.join(job['jobKnowledgeWelfareFeatures']),
+                    }
+                    self.csv_writer.writerow(data)
+                # 翻页操作
+                next_page_btn = page.ele('css:.soupager a:last-of-type')
+                if 'soupager__btn--disable' in next_page_btn.attr('class'):
+                    break
+                else:
+                    next_page_btn.click()  # 点击下一页按钮
+        except Exception as e:
+            print(f"发生错误: {e}")
+        finally:
+            if page:
+                page.quit()  # 关闭浏览器实例
+```
+::: tip 提示
+
+关于翻页操作的参数
+
+![](./image/b2bd99163d8d5d91f9d80dbe5e761275.png)
+
+可以看到上一页和下一页的按钮标签名称都为 `btn soupager__btn`
+
+为此做一个区分，下一页的标签在 `class = "soupager"` 的最后一个，所以我们使用`'css:.soupager a:last-of-type'`来获取最后一个元素，来判断是否进行下一页
+
+![](./image/5df59188e05be2e74d109598d06610ce.png)
+
+最后一页的下一页的标签为 `'soupager__btn--disable'`
+
+:::
+
+源代码如下
+
+```python
+import time
+from DrissionPage import SessionPage, ChromiumPage
+import re
+import csv
+class Zhilian(object):
+    def __init__(self, keyword, city):
+        self.keyword = keyword
+        self.city = city
+        self.url = 'https://www.zhaopin.com/sou/?jl=489&kw=python&p=2'
+
+        # 替换掉文件名中的非法字符
+        safe_keyword = self.keyword.replace('/', '_').replace('\\', '_').replace(':', '_')
+        safe_city = self.city.replace('/', '_').replace('\\', '_').replace(':', '_')
+
+        # 生成文件名
+        file_name = f'智联招聘_关键词_{safe_keyword}_城市_{safe_city}.csv'
+        try:
+            self.f = open(file_name, mode='w', encoding='utf-8', newline='')
+            self.csv_writer = csv.DictWriter(self.f, fieldnames=[
+                '职位',
+                '城市',
+                '公司',
+                '薪资',
+                '经验',
+                '学历',
+                '领域',
+                '技能',
+                '福利',
+            ])
+            self.csv_writer.writeheader()
+        except Exception as e:
+            print(f"打开文件时发生错误: {e}")
+            self.f = None  # 确保如果文件打开失败，self.f 不会被引用
+
+    def __del__(self):
+        """确保在对象销毁时关闭CSV文件"""
+        if hasattr(self, 'f') and self.f:  # 检查是否存在 f 属性
+            self.f.close()
+
+    def _get_city_code(self):
+        """获取城市编码"""
+        page = SessionPage()
+        page.get('https://fe-api.zhaopin.com/c/i/search/base/data')
+        json_data = page.json['data']['allCity']
+        for dit in json_data:
+            if dit['name'] == self.city:
+                return str(dit['code'])
+            for city_json in dit['sublist']:
+                if city_json['name'] == self.city:
+                    return str(city_json['code'])
+        return '489'  # 默认值为全国
+
+    def _get_url(self):
+        """根据关键词和城市编码生成正确的URL"""
+        self.url = re.sub(r'(?<=jl=)[^&]+', self._get_city_code(), self.url)
+        self.url = re.sub(r'(?<=kw=)[^&]+', self.keyword, self.url)
+        print(self.url)
+        return self.url
+
+    def run(self):
+        """爬取数据并写入CSV"""
+        page = None
+        try:
+            page = ChromiumPage()
+            page.listen.start('/search/positions')
+            page.get(self._get_url())
+            time.sleep(2)
+            page.scroll.to_bottom()  # 滚动到页面底部，加载新内容
+            page.ele('css:.soupager__btn').click()
+            for page_num in range(1000):  # 翻页处理
+                page.scroll.to_bottom()  # 滚动到页面底部，加载新内容
+                response = page.listen.wait()  # 等待监听到的请求响应
+                json_data = response.response.body
+                jobList = json_data['data']['list']
+                for job in jobList:
+                    data = {
+                        '职位': job['name'],
+                        '城市': job['workCity'],
+                        '公司': job['companyName'],
+                        '薪资': job['salary60'],
+                        '经验': job['workingExp'],
+                        '学历': job['education'],
+                        '领域': job['industryName'],
+                        '技能': ', '.join(skill['name'] for skill in job['jobSkillTags']),
+                        '福利': ', '.join(job['jobKnowledgeWelfareFeatures']),
+                    }
+                    self.csv_writer.writerow(data)
+                # 翻页操作
+                next_page_btn = page.ele('css:.soupager a:last-of-type')
+                if 'soupager__btn--disable' in next_page_btn.attr('class'):
+                    break
+                else:
+                    next_page_btn.click()  # 点击下一页按钮
+        except Exception as e:
+            print(f"发生错误: {e}")
+        finally:
+            if page:
+                page.quit()  # 关闭浏览器实例
+
+
+if __name__ == '__main__':
+    city = input('请输入城市名：')
+    keyword = input('请输入搜索关键词：')
+
+    # 确保用户输入不为空
+    if keyword:
+        Zhilian_spider = Zhilian(keyword=keyword, city=city)
+        Zhilian_spider.run()
+    else:
+        print("关键词和城市名不能为空！")
+
+
+```
+## 3. 前程无忧
+
+打开官网[前程无忧](https://www.51job.com/)
