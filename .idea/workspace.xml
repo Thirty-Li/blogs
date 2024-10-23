@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a8bc535-4e78-49e3-99a2-8a5dceac9a7d" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/env.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/env.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,11 @@
       <workItem from="1729664439148" duration="1000" />
       <workItem from="1729664448861" duration="52000" />
       <workItem from="1729664510453" duration="671000" />
-      <workItem from="1729665200383" duration="204000" />
+      <workItem from="1729665200383" duration="332000" />
+      <workItem from="1729665548250" duration="57000" />
+      <workItem from="1729665615443" duration="69000" />
+      <workItem from="1729665692395" duration="5000" />
+      <workItem from="1729665706578" duration="398000" />
     </task>
     <servers />
   </component>
@@ -112,7 +116,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
