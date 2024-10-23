@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a8bc535-4e78-49e3-99a2-8a5dceac9a7d" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/learning/blogCreate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/blogCreate/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/learning/blogCreate/config.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/blogCreate/config.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/learning/blogCreate/deploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/blogCreate/deploy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/env.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/env.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/processing.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/processing.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/visualization.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/zh/learning/zhaoPinCrawler/visualization.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +89,10 @@
       <workItem from="1727692837740" duration="10000" />
       <workItem from="1727692953301" duration="30000" />
       <workItem from="1729650323778" duration="124000" />
-      <workItem from="1729650474238" duration="1971000" />
+      <workItem from="1729650474238" duration="2700000" />
+      <workItem from="1729653228504" duration="763000" />
+      <workItem from="1729654132077" duration="1000" />
+      <workItem from="1729654145439" duration="301000" />
     </task>
     <servers />
   </component>
