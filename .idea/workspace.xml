@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a8bc535-4e78-49e3-99a2-8a5dceac9a7d" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogs" beforeDir="false" afterPath="$PROJECT_DIR$/blogs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/env.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/env.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/processing.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/src/zh/learning/zhaoPinCrawler/processing.md" afterDir="false" />
@@ -117,6 +118,7 @@
       <workItem from="1729673930351" duration="196000" />
       <workItem from="1729674137617" duration="754000" />
       <workItem from="1729674912797" duration="11000" />
+      <workItem from="1729674933375" duration="78000" />
     </task>
     <servers />
   </component>
