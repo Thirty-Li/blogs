@@ -1,13 +1,9 @@
 ---
 title: 创建项目
 icon: folder-plus
-order: 2
+order: 3
 category:
-  - Cookbook
-  - Tutorial
-  - Get Started
-tag:
-  - Template
+  - VuePress Theme Hope
 ---
 
 此教程将指引你创建一个 VuePress Theme Hope 项目。

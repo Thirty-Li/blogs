@@ -17,7 +17,7 @@ tag:
 
 ## 1. Boss直聘
 
-### URL获取
+### ✅️URL获取
 
 打开官网[Boss直聘](https://www.zhipin.com/)
 
@@ -53,13 +53,13 @@ tag:
 
 ![](./image/a595cc3b9b6085fcc67c7f2625632fde.png)
 
-访问网址 !![city.json](https://www.zhipin.com/wapi/zpCommon/data/city.json)!!
+访问网址 !! [city.json](https://www.zhipin.com/wapi/zpCommon/data/city.json) !!
 
 ![](./image/85d92e8d1c67280e59bfb670d72ba197.png)
 
 每个城市对应的参数都在该网址
 
-### 招聘信息获取
+### ✅️招聘信息获取
 
 刚刚我们获取完url的两个参数信息
 
@@ -79,13 +79,13 @@ tag:
 
 以上，我们就完成了编写代码的准备环节
 
-### 代码编写
+### ✅️代码编写
 
 用到的包`DrissionPage`
 
 [使用文档](https://www.drissionpage.cn/get_start/installation)
 
-#### ✅️️ URL获取模块
+#### 📌️URL获取模块
 
 ``` python
     def _get_city_code(self):
@@ -127,7 +127,7 @@ page.json返回的是一个字典类型
 
 :::
 
-#### ✅️ 数据抓取
+#### 📌数据抓取
 
 ```python
 def run(self):
@@ -184,7 +184,7 @@ def run(self):
 
 :::
 
-源代码如下
+### ✅️源代码如下
 
 ```python
 from DrissionPage import SessionPage, ChromiumPage
@@ -300,7 +300,7 @@ if __name__ == '__main__':
 
 ## 2. 智联招聘
 
-### URL获取
+### ✅️URL获取
 
 打开官网[智联招聘](https://www.zhaopin.com/)
 
@@ -317,7 +317,7 @@ if __name__ == '__main__':
 
 每个城市对应的参数都在该网址
 
-### 招聘信息获取
+### ✅️招聘信息获取
 
 有别于Boss直聘
 
@@ -335,13 +335,13 @@ if __name__ == '__main__':
 
 ![](./image/8ba9ad699c8d6c64d12a1f0d7a886162.png)
 
-### 代码编写
+### ✅️代码编写
 
 用到的包`DrissionPage`
 
 [使用文档](https://www.drissionpage.cn/get_start/installation)
 
-#### ✅️️ URL获取模块
+#### 📌URL获取模块
 
 ``` python
         def _get_city_code(self):
@@ -365,7 +365,7 @@ if __name__ == '__main__':
         return self.url
 ```
 
-#### ✅️ 数据抓取
+#### 📌数据抓取
 
 ```python
     def run(self):
@@ -423,7 +423,7 @@ if __name__ == '__main__':
 
 :::
 
-源代码如下
+### ✅️源代码如下
 
 ```python
 import time
@@ -551,7 +551,7 @@ if __name__ == '__main__':
 
 :::
 
-### URL获取
+### ✅️URL获取
 
 `https://we.51job.com/pc/search?jobArea=020000&keyword=java&searchType=2&keywordType=`
 
@@ -582,7 +582,7 @@ keywordType 作用不大
 
 :::
 
-### 简单demo编写
+### ✅️简单demo编写
 
 根据页面元素可以得到，页面中一个工作的信息包含在 `class=joblist_item`中
 所以我们可以通过`ChromiumPage()`对象的`eles`方法获取页面中所有`joblist_item`

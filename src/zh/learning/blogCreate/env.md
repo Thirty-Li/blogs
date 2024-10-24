@@ -1,11 +1,10 @@
 ---
 title: 运行环境搭建
 icon: screwdriver-wrench
-order: 1
+order: 2
 category:
-  - Cookbook
-  - Tutorial
-  - Get Started
+  - 环境配置
+  - Node.js
 tag:
   - Runtime
 ---

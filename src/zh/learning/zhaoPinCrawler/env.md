@@ -14,30 +14,30 @@ tag:
 
 <!-- more -->
 
-## Python 安装
+## ⬇️Python 安装
 
 ::: info 前言
 
 `人生苦短，快用Python！`
 
-Python作为众多编程语言之一，是学习者比较容易上手的一门语言，有着简单、易学、好用等特点
+`Python`作为众多编程语言之一，是学习者比较容易上手的一门语言，有着简单、易学、好用等特点
 
 :::
 
-### 1. 下载安装包[python官网](https://www.python.org/downloads/windows/) 。
+### 1. ✅️️下载安装包[python官网](https://www.python.org/downloads/windows/) 。
 
 ![](./image/b9f7f7cc81916a60b95e3835c66381c5.png)
 
-### 2. 运行安装包。
+### 2. ✅️️运行安装包。
 ::: info
 
-python安装非常简单，双击下载好的安装包，进入选择安装方式
+`python`安装非常简单，双击下载好的安装包，进入选择安装方式
 
-第一种：Install Now 立即安装，即采用默认安装方式，不能自行指定安装的路径。
+第一种：`Install Now` 立即安装，即采用默认安装方式，不能自行指定安装的路径。
 
-第二种：Customize installation 自定义安装，可以自己选择安装的路径（建议自定义安装）。
+第二种：`Customize installation` 自定义安装，可以自己选择安装的路径（建议自定义安装）。
 
-选择第二种，自定义安装，把最底下Add python.exe to PATH打上勾，否则需要手动添加环境变量
+选择第二种，自定义安装，把最底下`Add python.exe to PATH`打上勾，否则需要手动添加环境变量
 
 ![](./image/f5d9533689c48586594a40e3fcc134c1.png)
 
@@ -49,15 +49,15 @@ python安装非常简单，双击下载好的安装包，进入选择安装方�
 
 ![](./image/10163b5b3841c2ef8362c30638dce164.png)
 
-下一步：安装完成，点击Close关闭即可
+下一步：安装完成，点击`Close`关闭即可
 
-安装完成之后，使用win+R键输入cmd进入DOS界面，输入python验证，如下图所示即安装成功，继续输入exit()退出即可
+安装完成之后，使用`win+R`键输入`cmd`进入`DOS`界面，输入`python`验证，如下图所示即安装成功，继续输入`exit()`退出即可
 
 ![](./image/eb05e977a7027985a7b731647e515cf4.png)
 
 :::
 
-## Pycharm 安装
+## ⬇️Pycharm 安装
 
 ::: info
 
@@ -69,15 +69,15 @@ PyCharm是一款非常好用的Python IDE，由JetBrains开发而成。
 
 ![](./image/8971166a259dd89444f436fd3047b0c8.png)
 
-PyCharm针对每个平台都有Professional和Community两个版本，自己可根据自己的需要进行选择。
+PyCharm针对每个平台都有`Professional`和`Community`两个版本，自己可根据自己的需要进行选择。
 
-Professional：专业版（建议选择专业版），功能强大，属于收费版。
+`Professional`：专业版（建议选择专业版），功能强大，属于收费版。
 
-Community：社区版，只支持Python开发，开源、免费，用作学习也够用。
+`Community`：社区版，只支持Python开发，开源、免费，用作学习也够用。
 
 :::
 
-### 1. 安装包下载
+### 1. ✅️️安装包下载
 
 由于专业版本需要付费，一下包含破解教程
 
@@ -95,11 +95,11 @@ Community：社区版，只支持Python开发，开源、免费，用作学习�
 
 ![](./image/76f48f514e5dba6c375df642dfc46aa3.png)
 
-## 2. Pycharm 安装教程
+### 2. ✅️️Pycharm 安装教程
 
-下载的内容为 JetBrains 全家桶，安装教程以IDEA为例子
+下载的内容为 `JetBrains` 全家桶，安装教程以`IDEA`为例子
 
-下面将讲解 Pycharm 的安装教程，破解过程与IDEA一致
+下面将讲解 `Pycharm` 的安装教程，破解过程与`IDEA`一致
 
 首先找到解压包下的安装包
 
@@ -121,16 +121,16 @@ PyCharm的安装通用非常简单，双击进行下一步即可
 
 ![](./image/87aac7748caa19df1469209456240c2c.png)
 
-安装完成：点击I want to manually reboot later稍后重启系统
+安装完成：点击`I want to manually reboot later`稍后重启系统
 
 如何破解，请参照公众号文章教程
 
-Pycharm 常用快捷键
+### 3.✅️️Pycharm 常用快捷键
 
 ```bash
 折叠
     Ctrl -: 折叠当前代码
-    Ctrl +: 展开当前代码
+    Ctrl +: 展开当前代码S
     Ctrl Shift -: 折叠所有代码
     Ctrl Shift +: 展开所有代码
 移动

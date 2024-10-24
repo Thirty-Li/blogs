@@ -1,13 +1,10 @@
 ---
 title: 项目部署
 icon: rocket
-order: 4
+order: 5
 category:
-  - Cookbook
-  - Tutorial
-  - Get Started
-tag:
-  - Project Deployment
+  - VuePress
+  - GitHub
 ---
 
 本教程指引你如何部署 VuePress 项目。

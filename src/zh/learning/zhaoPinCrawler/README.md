@@ -6,11 +6,9 @@ sticky: 10
 dir:
     order: 1
 category:
-  - Cookbook
-  - Tutorial
-  - Get Started
-tag:
-  - Template
+  - 学习笔记
+  - python
+  - 爬虫
 ---
 
 此教程将指引你创建一个 招聘网站爬虫 项目。

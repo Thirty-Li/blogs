@@ -1,9 +1,9 @@
 ---
 title: 项目配置
 icon: gears
-order: 3
+order: 4
 category:
-  - Cookbook
+  - VuePress
   - Tutorial
   - Get Started
 tag:
