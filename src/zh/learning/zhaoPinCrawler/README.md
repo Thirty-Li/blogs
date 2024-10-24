@@ -4,7 +4,7 @@ icon: spider
 star: true
 sticky: 10
 dir:
-    order: 1
+    order: 2
 category:
   - 学习笔记
   - python
