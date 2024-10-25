@@ -21,21 +21,21 @@ features:
     details: Thirty_Li的学习笔记
     link: /zh/learning/
     
-  - title: 项目
+  - title: 开源项目
     icon: laptop-code
     details: Thirty_Li的项目实战
     link: /zh/project/
 
-  - title: 题解
+  - title: 算法笔记
     icon: lightbulb
     details: Thirty_Li的题目➕题解
     link: ./zh/problem/
 
 
-  - title: 文档
-    icon: folder
-    details: Thirty_Li的个人文档
-    link: /zh/note/
+  - title: 计算机
+    icon: computer
+    details: Thirty_Li的计算机大类的笔记
+    link: /zh/computer/
 
 copyright: false
 footer: MIT Licensed | Copyright © 2024-present Thirty_Li

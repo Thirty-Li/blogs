@@ -2,7 +2,7 @@
 home: true
 portfolio: true
 title: 个人介绍
-icon: home
+icon: about
 welcome: 👋 你好，我是
 name: Thirty_Li
 avatar: /preview.gif

@@ -1,62 +1,124 @@
 import { sidebar } from "vuepress-theme-hope";
 
-export default sidebar({
-    "/zh/learning/": "structure",
-    "/zh/note/": "structure",
-    "/zh/problem/": "structure",
-    "/zh/project/": "structure",
-    // "/zh/": [
-    //   "",
-    //   {
-    //     text: "学习笔记",
-    //     icon: "lightbulb",
-    //     prefix: "learning/",
-    //     link: "learning/",
-    //     children: "structure",
-    //   },
-    //   {
-    //     text: "项目",
-    //     icon: "laptop-code",
-    //     prefix: "project/",
-    //     link: "project/",
-    //     children: "structure",
-    //   },
-    //   {
-    //     text: "题解",
-    //     icon: "book-open",
-    //     prefix: "problem/",
-    //     link: "problem/",
-    //     children: "structure",
-    //   },
-    //   {
-    //     text: "文档",
-    //     icon: "file",
-    //     prefix: "note/",
-    //     link: "note/",
-    //     children: "structure",
-    //   },
-    // ],
 
-  // "/": [
+export default sidebar({
+  "/zh/project/": "structure",
+  "/zh/learning/": "structure",
+  "/zh/algorithm/": "structure",
+  "/zh/computer/": "structure",
+  // "/zh/computer/":[
   //   "",
-  //   "portfolio",
   //   {
-  //     text: "案例",
-  //     icon: "laptop-code",
-  //     prefix: "demo/",
-  //     link: "demo/",
+  //     text: "编程语言",
+  //     icon: "code",
+  //     prefix: "language/",
+  //     children: [
+  //         {
+  //             text: "C/C++",
+  //             icon: "c",
+  //             prefix: "c++/",
+  //             collapsible: true,
+  //             children: "structure",
+  //         },
+  //         {
+  //             text: "Java",
+  //             icon: "java",
+  //             prefix: "java/",
+  //             collapsible: true,
+  //             children: "structure",
+  //         },
+  //     ],
+  //   },
+  //   {
+  //     text: "计算机网络",
+  //     icon: "network",
+  //     prefix: "network/",
+  //     collapsible: true,
   //     children: "structure",
   //   },
   //   {
-  //     text: "文档",
-  //     icon: "book",
-  //     prefix: "guide/",
+  //     text: "数据库",
+  //     icon: "database",
+  //     prefix: "database/",
+  //     children: [
+  //         {
+  //             text: "MySQL",
+  //             icon: "mysql",
+  //             prefix: "mysql/",
+  //             collapsible: true,
+  //             children: "structure",
+  //         },
+  //         {
+  //             text: "Redis",
+  //             icon: "redis",
+  //             prefix: "redis/",
+  //             collapsible: true,
+  //             children: "structure",
+  //         },
+  //     ],
+  //   },
+  //   {
+  //     text: "操作系统",
+  //     icon: "operating-system",
+  //     prefix: "operating-system/",
+  //     children: [
+  //         {
+  //             text: "OS",
+  //             icon: "os",
+  //             prefix: "os/",
+  //             collapsible: true,
+  //             children: "structure",
+  //         },
+  //         {
+  //             text: "Linux",
+  //             icon: "linux",
+  //             prefix: "linux/",
+  //             collapsible: true,
+  //             children: "structure",
+  //         },
+  //     ],
+  //   },
+  //   {
+  //     text: "设计模式",
+  //     icon: "design-mode",
+  //     prefix: "design-mode/",
+  //     collapsible: true,
   //     children: "structure",
   //   },
   //   {
-  //     text: "幻灯片",
-  //     icon: "person-chalkboard",
-  //     link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
+  //     text: "中间件",
+  //     icon: "middleware",
+  //     prefix: "middleware/",
+  //     children: [
+  //         {
+  //             text: "MinIO",
+  //             icon: "minio",
+  //             prefix: "MinIO/",
+  //             collapsible: true,
+  //             children: "structure",
+  //         },
+  //         {
+  //             text: "MQ",
+  //             icon: "MQ",
+  //             prefix: "MQ/",
+  //             collapsible: true,
+  //             children: "structure",
+  //         },
+  //     ],
   //   },
+  //   {
+  //     text: "Git",
+  //     icon: "git",
+  //     prefix: "git/",
+  //     collapsible: true,
+  //     children: "structure",
+  //   },
+  //   {
+  //     text: "Docker",
+  //     icon: "docker",
+  //     prefix: "docker/",
+  //     collapsible: true,
+  //     children: "structure",
+  //   }, 
   // ],
 });

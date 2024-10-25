@@ -1,9 +1,10 @@
 ---
 title: 学习笔记
 icon: book-open
-description:
+date: 2024-07-05
 star: true
-sticky: 10
+article: true
+comment: false
 dir:
  order: 1
 #分类
@@ -12,3 +13,7 @@ dir:
 #  - Tutorial
 #  - Get Started
 ---
+
+# 学习笔记
+
+此处存放自己写的一些学习笔记，帮助学习。

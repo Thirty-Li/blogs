@@ -5,6 +5,8 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://thirty-li.github.io/blogs/",
+  logo: "logo.png",
+  favicon: "/favicon.ico",
 
   author: {
     name: "Thirty_Li",
@@ -13,13 +15,15 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "logo.png",
-
   repo: "https://github.com/Thirty-Li/blogs",
-
   docsDir: "src",
 
   // 导航栏
+  navbarLayout: {
+    start: ["Brand"],
+    center: [],
+    end: ["Search", "Links", "Repo", "Outlook"],
+  },
   navbar,
 
   // 侧边栏
@@ -30,14 +34,15 @@ export default hopeTheme({
 
   displayFooter: true,
 
+  // 路径导航
+  breadcrumb: false,
+  
   themeColor: true,
-
-  fullscreen: true,
 
   blog: {
     name: "Thirty_Li",
     avatar: "logo.png",
-    description: "此时情绪此时天",
+    description: "学而不思则罔 思而不学则殆",
     intro: "/portfolio",
     medias: {
       GitHub: "https://github.com/Thirty-Li",
@@ -94,7 +99,30 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
-    searchPro: true,
+    searchPro: {
+      // 索引全部内容
+      indexContent: true,
+      autoSuggestions: true,
+      // 为分类和标签添加索引
+      customFields: [
+        {
+          getter(page: any) {
+            return page.frontmatter.category;
+          },
+          formatter: {
+            '/': '分类：$content',
+          },
+        },
+        {
+          getter(page: any) {
+            return page.frontmatter.tag;
+          },
+          formatter: {
+            '/': '标签：$content',
+          },
+        },
+      ],
+    },
 
     comment: {
       provider: "Giscus",

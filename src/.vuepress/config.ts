@@ -7,7 +7,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "Thirty_Li",
-  description: "vuepress-theme-hope 的文档演示",
+  description: "记录日常学习和技术钻研",
 
   theme,
   head: [
