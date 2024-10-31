@@ -61,7 +61,7 @@ for keyword in keywords:
 我们在招聘网站中获取到的数据，有些需要进行处理
 例如薪资
 
-![](./image/a92373bbef05d678c94f297300d4d08e.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/a92373bbef05d678c94f297300d4d08e.png?raw=true)
 
 日期有 时，日，周，月
 单位有 元，千，万，k，w
@@ -220,5 +220,5 @@ for keyword in keywords:
 ```
 处理完成后的数据如下
 
-![](./image/db6b905c40296bb73b177d39fcdfb2bc.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/db6b905c40296bb73b177d39fcdfb2bc.png?raw=true)
 

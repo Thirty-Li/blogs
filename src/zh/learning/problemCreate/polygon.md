@@ -40,17 +40,17 @@ Polygon 的大部分功能都不需要学，能看懂英文就基本能用了。
 
 进入网址后，先注册登陆，然后点击 New Problem 开始创建一个题目表格，注意此处的 Name 只是项目名，不是最终的题目名。
 
-![](./image/1a7bc3e73df9011e52cbadc512dec334.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/1a7bc3e73df9011e52cbadc512dec334.png?raw=true)
 
 点击 start 开始编辑题目
 
-![](./image/be5f3d642203c4f61f5c00ddaa0e01d8.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/be5f3d642203c4f61f5c00ddaa0e01d8.png?raw=true)
 
 ### 📌️General Info
 
 在这个页面中可以设置题目的时间限制、空间限制、题目类型（是否为交互题）。
 
-![](./image/8223ce9d846cd1c818d85d02fe8370f9.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/8223ce9d846cd1c818d85d02fe8370f9.png?raw=true)
 
 ### 📌️Statement
 
@@ -69,7 +69,7 @@ Polygon 的大部分功能都不需要学，能看懂英文就基本能用了。
 
 :::
 
-![](./image/03b42dff212e07c64a7d47bc9fd34e38.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/03b42dff212e07c64a7d47bc9fd34e38.png?raw=true)
 
 ### 📌️Files
 
@@ -79,13 +79,13 @@ Polygon 的大部分功能都不需要学，能看懂英文就基本能用了。
 
 [grader](https://codeforces.com/blog/entry/66916) 式交互参见 官方教程。
 
-![](./image/89b1290836bb61acf122bbcf74fd9b7d.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/89b1290836bb61acf122bbcf74fd9b7d.png?raw=true)
 
 ### 📌️Checker
 
 testlib.h 提供了一些内置的 checker，在选择框中有简要介绍，也可以选择后再点 "View source" 查看源码。
 
-![](./image/f7367be4a9a14c896f99df8605f50d90.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/f7367be4a9a14c896f99df8605f50d90.png?raw=true)
 
 ::: important 注意
 
@@ -93,7 +93,7 @@ testlib.h 提供了一些内置的 checker，在选择框中有简要介绍，�
 
 自行去 [https://github.com/MikeMirzayanov/testlib](https://github.com/MikeMirzayanov/testlib) 将项目 clone 下来
 
-![](./image/3550f46da35a78ff6745f98e82ed03b3.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/3550f46da35a78ff6745f98e82ed03b3.png?raw=true)
 
 :::
 
@@ -117,13 +117,13 @@ validator 用来检测数据合法性，编写请参考官方 [validator](https:
 
 这个页面是用来管理数据的。
 
-![](./image/9a5ad03dfa212cac38960239ad14441a.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/9a5ad03dfa212cac38960239ad14441a.png?raw=true)
 
 运行脚本后即可得到下述的各个数据，其中点击每个测试点的 Example 可以将测试点设置为样例，即展示在题面中。
 
 测试点的 Example 如果勾选了 "Use in statements"，这组数据就会成为样例，自动加在题面里。
 
-![](./image/05d0c0919461eaaf140874d97815ab4d.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/05d0c0919461eaaf140874d97815ab4d.png?raw=true)
 
 可以参考 [Polygon 提供的教程](https://polygon.codeforces.com/docs/freemarker-manual) 使用 Freemarker 来批量生成脚本。
 

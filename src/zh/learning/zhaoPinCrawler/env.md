@@ -26,7 +26,7 @@ tag:
 
 ### 1. ✅️️下载安装包[python官网](https://www.python.org/downloads/windows/) 。
 
-![](./image/b9f7f7cc81916a60b95e3835c66381c5.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/b9f7f7cc81916a60b95e3835c66381c5.png?raw=true)
 
 ### 2. ✅️️运行安装包。
 ::: info
@@ -39,21 +39,21 @@ tag:
 
 选择第二种，自定义安装，把最底下`Add python.exe to PATH`打上勾，否则需要手动添加环境变量
 
-![](./image/f5d9533689c48586594a40e3fcc134c1.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/f5d9533689c48586594a40e3fcc134c1.png?raw=true)
 
 下一步：默认把所有的勾选上即可
 
-![](./image/82c712c81a254678a318be353433bba2.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/82c712c81a254678a318be353433bba2.png?raw=true)
 
 下一步：修改安装路径，建议别安装在C盘。如果没有联网，请不要勾选第六项
 
-![](./image/10163b5b3841c2ef8362c30638dce164.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/10163b5b3841c2ef8362c30638dce164.png?raw=true)
 
 下一步：安装完成，点击`Close`关闭即可
 
 安装完成之后，使用`win+R`键输入`cmd`进入`DOS`界面，输入`python`验证，如下图所示即安装成功，继续输入`exit()`退出即可
 
-![](./image/eb05e977a7027985a7b731647e515cf4.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/eb05e977a7027985a7b731647e515cf4.png?raw=true)
 
 :::
 
@@ -67,7 +67,7 @@ PyCharm是一款非常好用的Python IDE，由JetBrains开发而成。
 
 我下载的是 专业版本
 
-![](./image/8971166a259dd89444f436fd3047b0c8.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/8971166a259dd89444f436fd3047b0c8.png?raw=true)
 
 PyCharm针对每个平台都有`Professional`和`Community`两个版本，自己可根据自己的需要进行选择。
 
@@ -89,11 +89,11 @@ PyCharm针对每个平台都有`Professional`和`Community`两个版本，自己
 
 微信公众号搜索`软件管家`
 
-![](./image/f114d0926375c08d75ed9d127d3812e1.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/f114d0926375c08d75ed9d127d3812e1.png?raw=true)
 
 对话中发送`pycharm`
 
-![](./image/76f48f514e5dba6c375df642dfc46aa3.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/76f48f514e5dba6c375df642dfc46aa3.png?raw=true)
 
 ### 2. ✅️️Pycharm 安装教程
 
@@ -103,23 +103,23 @@ PyCharm针对每个平台都有`Professional`和`Community`两个版本，自己
 
 首先找到解压包下的安装包
 
-![](./image/d418a73cbf5c5d3f4f54e0e3903245ef.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/d418a73cbf5c5d3f4f54e0e3903245ef.png?raw=true)
 
 PyCharm的安装通用非常简单，双击进行下一步即可
 
-![](./image/d1b49226c80179063acfa2c76195f57c.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/d1b49226c80179063acfa2c76195f57c.png?raw=true)
 
 下一步：修改安装路径，建议别放在C盘。
 
-![](./image/3632c2ea96a157156bb8707dccee5026.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/3632c2ea96a157156bb8707dccee5026.png?raw=true)
 
 下一步：可以都勾选上
 
-![](./image/f66cf81125e917b79dde6af7b87e895a.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/f66cf81125e917b79dde6af7b87e895a.png?raw=true)
 
 下一步：直接点击Install安装即可
 
-![](./image/87aac7748caa19df1469209456240c2c.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/87aac7748caa19df1469209456240c2c.png?raw=true)
 
 安装完成：点击`I want to manually reboot later`稍后重启系统
 

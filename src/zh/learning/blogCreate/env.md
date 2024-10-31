@@ -34,7 +34,7 @@ tag:
 :::
 ### 3. 然后再在安装路径的根目录下新建两个文件夹，`node_cache`和`node_global`,如图所示：
 
-![](./image/9e8f03c3cf708ec9d207870992c14943.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/9e8f03c3cf708ec9d207870992c14943.png?raw=true)
 
 ### 4. 环境配置
 
@@ -42,7 +42,7 @@ tag:
 
 新建一个`NODE_HOME`，变量值为安装路径
 
-![](./image/c11ad51c87f5a011643495335fad872b.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/c11ad51c87f5a011643495335fad872b.png?raw=true)
 
 然后再在系统变量的`path`中添加
 
@@ -57,7 +57,7 @@ tag:
 ```bash
 %NODE_HOME%\node_cache
 ```
-![](./image/40775d2b28c32424afe0f77e5f87e0d7.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/40775d2b28c32424afe0f77e5f87e0d7.png?raw=true)
 
 然后将用户变量默认的 `C:\User\35025\AppDate\Roaming\npm` 改成 前面新建文件夹`node_global`的路径，例如我的是`D:\Environment\nodejs\node_globle`
 

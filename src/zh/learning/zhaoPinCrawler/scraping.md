@@ -21,17 +21,17 @@ tag:
 
 打开官网[Boss直聘](https://www.zhipin.com/)
 
-![](./image/290d8576eae6b8a8de26d74cc047e575.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/290d8576eae6b8a8de26d74cc047e575.png?raw=true)
 
 我们随便搜索一个求职信息如 `python`
 
-![](./image/f4989b7e2cf29a8082b68acc7f3f1704.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/f4989b7e2cf29a8082b68acc7f3f1704.png?raw=true)
 
 网址中 可以发现有两个参数 `qurey=python` 和`city=100010000`
 
 我们再搜索一个求职信息如 `java`
 
-![](./image/ecc18777431654b1c244922dd813bd0c.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/ecc18777431654b1c244922dd813bd0c.png?raw=true)
 
 发现参数`qurey=java`和`city=100010000`
 
@@ -43,19 +43,19 @@ tag:
 
 返回到主页，按`F12`打开开发者工具，选择网络一栏
 
-![](./image/72e604671ab18b8f344949410f6cc101.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/72e604671ab18b8f344949410f6cc101.png?raw=true)
 
 刷新一下网页（若网络一栏无文件，则需要刷新网页），搜索框中搜索city
 
-![](./image/a5e3ffc7e5c3f22f109a6edf89662320.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/a5e3ffc7e5c3f22f109a6edf89662320.png?raw=true)
 
 找到`city.json`（就是城市的参数文件）
 
-![](./image/a595cc3b9b6085fcc67c7f2625632fde.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/a595cc3b9b6085fcc67c7f2625632fde.png?raw=true)
 
 访问网址 !! [city.json](https://www.zhipin.com/wapi/zpCommon/data/city.json) !!
 
-![](./image/85d92e8d1c67280e59bfb670d72ba197.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/85d92e8d1c67280e59bfb670d72ba197.png?raw=true)
 
 每个城市对应的参数都在该网址
 
@@ -68,14 +68,14 @@ tag:
 
 我们访问网址，打开开发者工具，选择网络一栏
 
-![](./image/9bc3f28b889eb854d221a57920a26656.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/9bc3f28b889eb854d221a57920a26656.png?raw=true)
 
-![](./image/c3b61d0c6d04f6dfd5d65526d57ba6fa.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/c3b61d0c6d04f6dfd5d65526d57ba6fa.png?raw=true)
 
 选择 标头 一栏 ，找到请求标头的:path一栏
 复制`search/joblist.json` 后面编写代码需要
 
-![](./image/ae63c3e24c8e44b743a7fdb612a53a9b.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/ae63c3e24c8e44b743a7fdb612a53a9b.png?raw=true)
 
 以上，我们就完成了编写代码的准备环节
 
@@ -115,15 +115,15 @@ page.json返回的是一个字典类型
 
 `'zpData'`访问的是
 
-![](./image/ac5ce6edf4714822162ebb87ec0dea87.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/ac5ce6edf4714822162ebb87ec0dea87.png?raw=true)
 
 `'cityList'`访问的是
 
-![](./image/53eb5e43620d7c652bb5b6dbaf0791f7.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/53eb5e43620d7c652bb5b6dbaf0791f7.png?raw=true)
 
 这里的`dit['subLevelModelList']`代表
 
-![](./image/df9900812e43c4911e8b47322b3b981c.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/df9900812e43c4911e8b47322b3b981c.png?raw=true)
 
 :::
 
@@ -174,7 +174,7 @@ def run(self):
 
 关于翻页操作的参数
 
-![](./image/9a05629233294e66befa6f691b607289.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/9a05629233294e66befa6f691b607289.png?raw=true)
 
 可以看到下一页的按钮标签名称为 `ui-icon-arrow-right`
 
@@ -313,7 +313,7 @@ if __name__ == '__main__':
 
 [城市参数网址](https://fe-api.zhaopin.com/c/i/search/base/data)
 
-![](./image/bb3a16e648641dc832cb27e0d7e08226.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/bb3a16e648641dc832cb27e0d7e08226.png?raw=true)
 
 每个城市对应的参数都在该网址
 
@@ -323,17 +323,17 @@ if __name__ == '__main__':
 
 你在搜索公司名称时，发现找不到对应的json文件
 
-![](./image/8a13a58b29ec704471aadf5f29704036.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/8a13a58b29ec704471aadf5f29704036.png?raw=true)
 
 但我们翻到第二页的时候
 
-![](./image/bf0c4b32071287ce71d73be96ab25291.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/bf0c4b32071287ce71d73be96ab25291.png?raw=true)
 
 对应的文件找到了
 
 获取到:path: !!`search/positions`!!
 
-![](./image/8ba9ad699c8d6c64d12a1f0d7a886162.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/8ba9ad699c8d6c64d12a1f0d7a886162.png?raw=true)
 
 ### ✅️代码编写
 
@@ -411,13 +411,13 @@ if __name__ == '__main__':
 
 关于翻页操作的参数
 
-![](./image/b2bd99163d8d5d91f9d80dbe5e761275.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/b2bd99163d8d5d91f9d80dbe5e761275.png?raw=true
 
 可以看到上一页和下一页的按钮标签名称都为 `btn soupager__btn`
 
 为此做一个区分，下一页的标签在 `class = "soupager"` 的最后一个，所以我们使用`'css:.soupager a:last-of-type'`来获取最后一个元素，来判断是否进行下一页
 
-![](./image/5df59188e05be2e74d109598d06610ce.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/5df59188e05be2e74d109598d06610ce.png?raw=true)
 
 最后一页的下一页的标签为 `'soupager__btn--disable'`
 
@@ -545,7 +545,7 @@ if __name__ == '__main__':
 
 ::: info 前情提要
 
-![](./image/aa01ca6c23e2924c53795a1a4f420b08.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/aa01ca6c23e2924c53795a1a4f420b08.png?raw=true)
 
 由于该网站招聘信息 技能要求和福利 等信息在一块，后期数据处理很麻烦，故在这里只教程如何爬取内容
 
@@ -572,13 +572,13 @@ keywordType 作用不大
 
 需要手动验证
 
-![](./image/6180b7c95b61929859a406b9ef1d9a34.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/6180b7c95b61929859a406b9ef1d9a34.png?raw=true)
 
 所以该网站不能像前面俩一样爬取（大家可以尝试编写代码，突破验证）
 
 通过直接爬取网页元素（该方法相较于前面，比较麻烦）
 
-![](./image/17f14af6511d3f7f4d887e9fc5fa5b74.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/17f14af6511d3f7f4d887e9fc5fa5b74.png?raw=true)
 
 :::
 
@@ -587,21 +587,21 @@ keywordType 作用不大
 根据页面元素可以得到，页面中一个工作的信息包含在 `class=joblist_item`中
 所以我们可以通过`ChromiumPage()`对象的`eles`方法获取页面中所有`joblist_item`
 
-![](./image/5d0d58e356175b2b2bf60eb6bfe554f6.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/5d0d58e356175b2b2bf60eb6bfe554f6.png?raw=true)
 
-![](./image/cfbab55c7407e4e7ce16da9c113b43ef.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/cfbab55c7407e4e7ce16da9c113b43ef.png?raw=true)
 
 公司信息如图所示
 
-![](./image/83571e80863ffc6cd47feb632990d302.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/83571e80863ffc6cd47feb632990d302.png?raw=true)
 
-![](./image/025a13cd4899c9ec3ef6a8b7110e6424.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/025a13cd4899c9ec3ef6a8b7110e6424.png?raw=true)
 
 公司标签如图所示
 
-![](./image/bd0123b6356779b936100c663e07733c.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/bd0123b6356779b936100c663e07733c.png?raw=true)
 
-![](./image/299cbedbe2266a06ab1ab94e04682b24.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/299cbedbe2266a06ab1ab94e04682b24.png?raw=true)
 
 ```python
 import json

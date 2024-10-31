@@ -76,7 +76,7 @@ minNum = 5000  # 定义的最小值
 
 生成的 data 如下
 
-![](./image/9769d94bf24c2676ee90bfcc3e594192.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/9769d94bf24c2676ee90bfcc3e594192.png?raw=true)
 
 ### 📌map_chart（地图）
 
@@ -407,7 +407,7 @@ if __name__ == "__main__":
 
 ### 📌成果展示
 
-![](./image/efabc4c56a911f11d1dae18e0e50a8a5.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/efabc4c56a911f11d1dae18e0e50a8a5.png?raw=true)
 
 ## 2. 全国招聘工作数量可视化表.html
 
@@ -634,7 +634,7 @@ if __name__ == "__main__":
 
 ### 📌成果展示
 
-![](./image/f95c68596bc88c5f16483de7b769fb35.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/f95c68596bc88c5f16483de7b769fb35.png?raw=true)
 
 ## 3. 岗位词云统计.html
 
@@ -734,4 +734,4 @@ timeline.render('岗位词云统计.html')
 ```
 
 ### 📌成果展示
-![](./image/fdf4679b8a017bf0bdcd292e99665d1b.png)
+![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/fdf4679b8a017bf0bdcd292e99665d1b.png?raw=true)
