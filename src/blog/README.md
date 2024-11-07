@@ -17,12 +17,12 @@ projects:
   - icon: lightbulb
     name: 题解
     desc: Thirty_Li的题目➕题解
-    link: /zh/problem/
+    link: /zh/algorithm/
 
-  - icon: file
-    name: 文档
-    desc: Thirty_Li的个人文档
-    link: /zh/note/
+  - icon: computer
+    name: 计算机
+    desc: 计算机大类的笔记
+    link: /zh/computer/
 
   - icon: book-open
     name: 学习笔记
