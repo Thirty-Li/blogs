@@ -1,3 +1,17 @@
+---
+tittle: Vector的使用
+index: true
+date: 2024-03-05
+star: true
+article: true
+category:
+  - Vector
+  - C++
+tag:
+  - STL
+
+---
+
 vector是一个动态数组会自动分配和管理内部的内存，使其能够动态地存储元素，具有快速的随机访问能力（O(1)时间复杂度）
 
 ## 内存分配：

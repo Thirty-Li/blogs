@@ -1,3 +1,17 @@
+---
+tittle: 自定义Vector
+index: true
+date: 2025-03-28
+star: true
+article: true
+category:
+  - String
+  - C++
+tag:
+  - STL
+
+---
+
 # `KAllocator`
 
 基于内存池的自定义堆内存管理器，主要用于优化小对象的内存分配与释放。

@@ -1,3 +1,16 @@
+---
+tittle: 自定义String
+index: true
+date: 2025-03-28
+star: true
+article: true
+category:
+  - String
+  - C++
+tag:
+  - STL
+
+---
 # `KString `
 
 成员变量
