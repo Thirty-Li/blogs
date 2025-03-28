@@ -42,7 +42,7 @@ tag:
 
 > 若 `free_list` 为空，则从 `memory_pool` 分配新块。
 
-> 若 `memory_pool` 已满，则调用 std::allocator<T> 进行动态分配。
+> 若 `memory_pool` 已满，则调用 `std::allocator<T>` 进行动态分配。
 
 ![](https://github.com/Thirty-Li/typoraImg/blob/main/blogImage/eac61daa49b40192fbe8a66b4439bfae.png?raw=true)
 

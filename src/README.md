@@ -29,7 +29,7 @@ features:
   - title: 算法笔记
     icon: lightbulb
     details: Thirty_Li的题目➕题解
-    link: ./zh/problem/
+    link: ./zh/algorithm/
 
 
   - title: 计算机
