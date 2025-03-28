@@ -9,7 +9,6 @@ category:
   - C++
 tag:
   - STL
-
 ---
 
 # `KAllocator`
